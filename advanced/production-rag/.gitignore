@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.pyc
+data/uploads/*
+data/indexes/*
+!data/uploads/.gitkeep
+!data/indexes/.gitkeep
+.streamlit/secrets.toml

@@ -1,0 +1,16 @@
+# Python 3.11 compatible pins; keep NumPy in the range supported by FAISS 1.9.
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.4
+pydantic-settings==2.7.0
+langgraph==0.2.60
+faiss-cpu==1.9.0.post1
+numpy==1.26.4
+sentence-transformers==3.3.1
+pypdf==5.1.0
+openai==1.58.1
+streamlit==1.41.1
+requests==2.32.3
+pytest==8.3.4
+httpx==0.28.1

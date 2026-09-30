@@ -1,0 +1,2 @@
+def grounded_prompt(question: str, context: str) -> str:
+    return f"""Answer the user's question using only the document excerpts below. Do not use outside knowledge or make assumptions. If the excerpts do not establish the answer, say that the documents do not provide enough information. Cite evidence inline using the exact source labels shown (for example [Source 1]). Never invent a source or page number. Distinguish uncertainty clearly.\n\nDOCUMENT EXCERPTS\n{context}\n\nQUESTION\n{question}\n\nANSWER"""
